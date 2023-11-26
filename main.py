@@ -27,7 +27,7 @@ common_file_ext = {
 root = tk.Tk()
 root.withdraw()
 
-path = filedialog.askdirectory(title="Select the folder to clean", initialdir=Path.home() / "Downloads")
+path = filedialog.askdirectory(title="Sélectionnez le dossier à néttoyer", initialdir=Path.home())
 
 if not path:
     messagebox.showinfo("Nettoyage annulé", "Opération de nettoyage annulée.", icon="warning")
